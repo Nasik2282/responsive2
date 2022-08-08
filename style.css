@@ -1,0 +1,173 @@
+body {
+    background: #FFFFFF;
+    /* background: #FFFFFF;
+    background-image: url(img/background.png);
+    background-size: cover; */
+}
+
+.navbar-brand {
+    margin-left: 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+#navbarNav {
+    margin-left: 10px;
+}
+
+nav {
+    margin-left: 15px;
+}
+
+.nav-link {
+    margin-left: 10px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.nav-button .btn {
+    margin-left: 900px;
+    background-color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #935CFD;
+    border-radius: 20px;
+}
+.background {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.heading {
+    margin-top: -550px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 125px;
+    line-height: 75px;
+    /* or 100% */
+
+    letter-spacing: 0.2em;
+
+    color: #935CFD;
+}
+
+.heading span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 125px;
+    line-height: 125px;
+    /* or 100% */
+
+    letter-spacing: 0.2em;
+
+    color: #25D0F0;
+}
+
+.header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+
+    color: #935CFD;
+}
+
+.button .btn {
+    width: 229px;
+    background: #20D6EF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+@media all and (max-width : 1000px) {
+    .navbar-brand{
+        color: #935CFD;
+    }
+
+    .nav-link{
+        margin-left: 0px;
+        color: #BFC4C7;
+    }
+    .heading {
+        margin-top: -250px;
+        font-size:  75px;
+    }
+    .header{
+        width: 600px;
+    }
+
+    .nav-button .btn {
+        margin-left: 325px;
+        background-color:#935CFD ;
+        color: #FFFFFF;
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .background {
+        margin-top: 0px;
+    }
+    
+}
+
+@media all and (max-width : 500px){
+    .nav-button .btn {
+        margin-left: 125px;
+    }
+
+    .heading{
+        margin-top: -75px;
+    }
+    .heading span {
+        font-size: 85px;
+        line-height: 50px;
+    }
+
+    .header{
+        font-size: 13px;
+        line-height: 15px;
+        width: 350px;
+    }
+
+    .button .btn {
+        margin-left: 85px;
+        margin-top: 50px;
+    }
+}
